@@ -1,0 +1,40 @@
+## Instrucciones de instalación para el clientes de las centrales incluidas en el proyecto Emergiendo con el Sol ##
+
+NOTA IMPORTANTE
+Desactivar temporalmente todos los antivirus o software de este tipo en el transcurso de esta instalación, en el caso de no hacerlo, no se asegura una correcta instalación. 
+Una vez instalado correctamente se puede activar estos programas con total libertad.
+
+## 1 - Contenido del instalador ##
+
+Acompañado de estas instrucciones habrá también un instalador ejecutable con el nombre de la central que se encargará de la instalación de la misma.
+
+## 2 - Instalación ##
+
+Simplemente hacer doble click en el instalador y en unos pocos segundos se instalará, una vez completo podemos cerrar el instalador y automaticamente se abrirá el programas
+
+## 3 - Configuración ##
+
+Todos los campos ya están configurados para el correcto funcionamiento del programa, solo hay que cambiar el directorio donde se están monitorizando los datos de la central.
+Este tiene que ser el directorio raiz, es decir, si por ejemplo tenemos el archivo del día 14 de abril de 2015 en "C:\Users\Admin\Monitorización\Medidas Lima-UNI\2015\abril" el
+directorio raiz de nuestro sistema de monitorización sería ""C:\Users\Admin\Monitorización\Medidas Lima-UNI" sin comillas. Ajuste este campo a su instalación.
+
+## 4 - Comprobación de correcta instalación ##
+
+Una vez abierto el programa podemos ver una etiqueta en la que pone "Estado", si la conexión se está llevando a cambio de la forma esperada pondrá un "Correcto", en caso contrario saldrá
+un mensaje de error con el error que este ocurriendo, los más habitualos son "Timeout" que se deberá sobre todo a problemas de conexión (falta de internet o que el servidor está caido).
+
+Una vez tengamos el "Correcto" en la etiqueta de Estado y hayamos puesto correctamente el directorio de monitorización y aceptado los cambios, en la etiqueta de "Última actualización" debería
+cambiar de 01_ene_1901 a la fecha del primer fichero monitorizado del directorio e ir subiendo hasta la fecha actual, si esto sucede, el sistema estará instalado correctamente.
+
+## 5 - Uso correcto del sistema ##
+
+Una vez que hemos completado el paso 4 correctamente el sistema debe permanecer funcionando indefinidamente, para ello simplemente lo minimizamos y aparecerá en la parte inferior derecha
+en la barra de tareas con un icono de la universidad de Jaén para que permanezca oculto y sin molestar, aunque siempre podremos volver a abrirlos desde el icono. En caso de reinicio del sistema 
+este programa se iniciará automaticamente con Windows, así que no necesita atención, aunque siempre es interesante comprobar su estado de vez en cuando para ver que todo vaya bien.
+
+## 6 - Desinstalación ##
+
+En el caso de querer desinstalar esta aplicación, en el desinstalador de programas de Windows tenemos un enlace para ello como en la propia carpeta de instalación que debería ser algo asó como:
+"C:\Program Files (x86)\EmergiendoConElSol" o "C:\Program Files\EmergiendoConElSol"
+
+
