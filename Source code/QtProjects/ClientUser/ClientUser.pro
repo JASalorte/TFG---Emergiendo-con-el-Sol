@@ -16,13 +16,13 @@ win32:RC_ICONS += logo_ujaen.ico
 
 LIBS += -static-libgcc -static-libstdc++
 
-LIBS += "C:\Users\Linkku\Documents\QtProjects\ClientUser\libssh\libssh.dll"
+LIBS += "C:\Users\Linkku\Documents\ClientUser\libssh\libssh.dll"
 
 #DEPENDPATH += libssh
 #INCLUDEPATH += libssh
 
 #CONFIG += D_BSD_SOURCE
-CONFIG += c++11
+#CONFIG += c++11
 
 SOURCES += main.cpp\
         mainwindow.cpp
@@ -30,8 +30,7 @@ SOURCES += main.cpp\
 HEADERS  += mainwindow.h \
     dateClass.h \
     dirClass.h \
-    SSHFunctions.h \
-    ui_mainwindow.h
+    SSHFunctions.h
 
 FORMS    += mainwindow.ui
 
