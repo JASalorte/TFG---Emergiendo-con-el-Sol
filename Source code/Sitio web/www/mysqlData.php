@@ -1,3 +1,5 @@
+/***Estos datos han sido totalmente cambiados para asegurar la seguridad del proyecto***/
+
 <?php
 /* * * connect to database ** */
 	/*         * * mysql hostname ** */
